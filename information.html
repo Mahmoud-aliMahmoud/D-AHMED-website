@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="معلومات عن عيادات جراند جلاري — د. أحمد بهجات شفيق، جامعة بدر، أسيوط القوصية."
+    />
+    <title>معلومات عن المركز | Grand Glary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="home.html" class="logo" aria-label="Grand Glary الرئيسية">
+          <span class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" width="40" height="40" focusable="false">
+              <path
+                fill="#2563eb"
+                d="M20 4c-4 8-8 12-8 18a8 8 0 0 0 16 0c0-6-4-10-8-18Z"
+              />
+              <path
+                fill="#fbbf24"
+                d="m26 8 2 4 4 1-4 3 1 5-4-3-4 3 1-5-4-3 4-1 2-4Z"
+              />
+            </svg>
+          </span>
+          <span class="logo-text">Grand Glary<strong>.</strong></span>
+        </a>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="main-nav"
+          aria-label="فتح القائمة"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav id="main-nav" class="main-nav" aria-label="التنقل الرئيسي">
+          <ul class="nav-list">
+            <li><a href="home.html">الرئيسية</a></li>
+            <li><a class="active" href="information.html">معلومات عن المركز</a></li>
+            <li><a href="drugs.html">نشرات علاجية</a></li>
+            <li><a href="service.html">خدماتنا</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+          </ul>
+        </nav>
+
+        <a class="btn btn-header" href="contact.html">احجز موعدًا</a>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="content-section content-section--alt" id="about" aria-labelledby="about-h">
+        <div class="content-inner">
+          <h2 id="about-h" class="section-title">معلومات عن المركز</h2>
+          <div class="about-card">
+            <p class="about-lead">
+              <strong>الطبيب:</strong> د. أحمد بهجات شفيق
+            </p>
+            <ul class="about-facts">
+              <li><strong>المؤهل:</strong> بكالوريوس طب الأسنان – جامعة بدر</li>
+              <li>
+                <strong>التخصصات:</strong> تقويم الأسنان، طب الأسنان التجميلي،
+                زراعة الأسنان
+              </li>
+              <li><strong>هدفنا:</strong> تقديم أفضل رعاية ممكنة لكل مريض</li>
+            </ul>
+            <p class="about-note">
+              نرحب بكم في عيادات جراند جلاري، حيث نجمع بين الخبرة والاهتمام
+              الشخصي لصحة فمك وأسنانك.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Grand Glary — د. أحمد بهجات شفيق. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
